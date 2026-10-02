@@ -9,13 +9,16 @@
 //     throw new Error("mein hu custom error bhai tune x ko declare nhi kra hai bhai")
 
 // }
+// finally is runs whether error occurs or not 
 // finally{
 //     console.log("mein hu finally mein to chalunga ho")
 // }
 
+
+// throw is used to throw custom errors
 let errorCode=100;
 if(errorCode==100){
     throw new Error("Invalid json")
-}
+};
 
 
