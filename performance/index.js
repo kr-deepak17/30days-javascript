@@ -38,4 +38,4 @@ const time3_2=performance.now();
 console.log("time to run code2 is "+(time3_2-time3_1));
 
 // code 3 also take 1 reflow and 1 repaint;
-//code 3 is best
+//code 3 and code 2 is best 
