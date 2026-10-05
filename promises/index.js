@@ -80,5 +80,5 @@ Promise.all([promise2,promise1,promise3])
 })
 .catch((error)=>{
     console.log("hello ji yha to error aa rhi hai."+error);
-})
+});
 
