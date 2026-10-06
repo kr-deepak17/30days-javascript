@@ -1,8 +1,27 @@
+// let name = "ashok";
+// function outerFunction(){
+//     let name ="deepak kumar";
+//     function innerFunction(){
+//         let name ="banta"
+//         console.log(name);
+//     }
+//     innerFunction();
+// }
+// outerFunction();
+
+
+
+// concept of closures
+
 function outerFunction(){
     let name ="deepak kumar";
     function innerFunction(){
         console.log(name);
     }
-    innerFunction();
+    return innerFunction;
 }
-outerFunction();
+ let inner =outerFunction();
+ inner();
+
+
+
